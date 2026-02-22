@@ -1,98 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Enzzio | Links Oficiais</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Gabriel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #001f3f, #001a33);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
 
-<style>
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:linear-gradient(135deg,#000428,#004e92);
-    text-align:center;
-    color:white;
-}
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid #00ffff;
+            margin: 20px 0;
+        }
 
-.container{
-    padding:30px 20px;
-}
+        h1 {
+            margin: 10px 0;
+        }
 
-.profile{
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    border:4px solid #00f2ff;
-    object-fit:cover;
-    margin-bottom:15px;
-}
+        p {
+            margin: 5px 0 20px 0;
+            font-size: 16px;
+        }
 
-h1{
-    margin:10px 0;
-    font-size:28px;
-}
+        .btn {
+            display: block;
+            width: 90%;
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            background-color: #00ffff; /* azul dos outros botões */
+            border-radius: 12px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
 
-p{
-    opacity:0.8;
-}
+        .btn:hover {
+            background-color: #00e0e0; /* efeito hover */
+        }
 
-.btn{
-    display:block;
-    background:#00f2ff;
-    color:black;
-    text-decoration:none;
-    padding:15px;
-    margin:15px auto;
-    width:90%;
-    max-width:400px;
-    border-radius:15px;
-    font-weight:bold;
-    transition:0.3s;
-}
-
-.btn:hover{
-    transform:scale(1.05);
-    background:#00c2cc;
-}
-
-footer{
-    margin-top:30px;
-    font-size:14px;
-    opacity:0.6;
-}
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<img src="https://i.imgur.com/2yaf2wb.png" class="profile">
-
-<h1>@gabrielxx</h1>
-<p>🔥 Oficial • Gabrielxx 🔥</p>
-
-<a href="https://instagram.com/" class="btn">📸 Instagram</a>
-<a href="https://linkdacomprar.com" target="_blank" style="display:block; padding:10px; margin:10px 0; background-color:#4CAF50; color:white; text-align:center; text-decoration:none; border-radius:5px;">
-  Comprar
-</a>
-<a href="#" class="btn">💬 Grupo WhatsApp</a>
-<a href="#" class="btn">🎮 Discord</a>
-<button class="btn" onclick="copiarPix()">💰 Apoie via Pix</button>
-
-<script>
-function copiarPix() {
-    const chavePix = "284-317-072-91";
-    navigator.clipboard.writeText(chavePix);
-    alert("Chave Pix CPF copiada! 📲\nCole no seu banco e nos ajude ❤️");
-}
-</script>
-
-<footer>
-© 2026 Gabriel
-</footer>
-
-</div>
-
-</body>
-</html>
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bbb
