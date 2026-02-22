@@ -75,7 +75,15 @@ footer{
 <a href="https://instagram.com/" class="btn">📸 Instagram</a>
 <a href="#" class="btn">💬 Grupo WhatsApp</a>
 <a href="#" class="btn">🎮 Discord</a>
-<a href="#" class="btn">💰 Apoie na Vaquinha</a>
+<button class="btn" onclick="copiarPix()">💰 Apoie via Pix</button>
+
+<script>
+function copiarPix() {
+    const chavePix = "SUA-CHAVE-PIX-AQUI";
+    navigator.clipboard.writeText(chavePix);
+    alert("Chave Pix copiada! 📲\nCole no seu banco e ajude ❤️");
+}
+</script>
 
 <footer>
 © 2026 Enzzio Gabriel
