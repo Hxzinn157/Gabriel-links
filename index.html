@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Links Lilica</title>
 <style>
+/* Fundo rosa degradê */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #1a1a2e, #162447);
+    background: linear-gradient(to bottom, #ffb6c1, #ff69b4); /* rosa suave para forte */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,54 +16,66 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 20px;
-    color: white;
+    color: #333;
 }
 
+/* Foto de perfil */
 .profile-pic {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 5px solid #00ffff;
+    border: 5px solid white;
     margin: 20px 0;
     object-fit: cover;
-    box-shadow: 0 0 15px #00ffff; /* sombra azul */
+    box-shadow: 0 0 20px white; /* sombra branca elegante */
 }
 
+/* Nome e descrição */
 h1 {
     margin: 10px 0;
     text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px #ff69b4;
 }
 
 p {
     margin: 5px 0 20px 0;
     font-size: 16px;
     text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px #ff69b4;
 }
 
+/* Botões brancos com efeito */
 .btn {
     display: block;
     width: 90%;
     max-width: 400px;
-    margin: 10px auto;
+    margin: 12px auto;
     padding: 14px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    background-color: #00ffff;
+    color: #ff69b4; /* texto rosa */
+    background-color: white; /* botão branco */
     border-radius: 12px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .btn:hover {
-    background-color: #00e0e0;
+    background-color: #ffe6f0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
+/* Rodapé */
 footer {
     margin-top: 30px;
     font-size: 14px;
-    color: #bbb;
+    color: #fff;
+    text-shadow: 1px 1px 3px #ff69b4;
 }
 </style>
 </head>
