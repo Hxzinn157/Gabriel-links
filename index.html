@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Links Lilica </title>
+<title>Links Lilica</title>
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #1a1a2e, #162447); /* fundo degradê */
+    background: linear-gradient(to bottom, #1a1a2e, #162447);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,20 +19,24 @@ body {
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    border: 5px solid #00ffff; /* borda azul */
+    border: 5px solid #00ffff;
     margin: 20px 0;
+    object-fit: cover;
+    box-shadow: 0 0 15px #00ffff; /* sombra azul */
 }
 
 h1 {
     margin: 10px 0;
+    text-align: center;
 }
 
 p {
     margin: 5px 0 20px 0;
     font-size: 16px;
+    text-align: center;
 }
 
 .btn {
@@ -40,19 +44,19 @@ p {
     width: 90%;
     max-width: 400px;
     margin: 10px auto;
-    padding: 12px;
+    padding: 14px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: black; /* texto do botão */
-    background-color: #00ffff; /* cor do botão */
+    color: black;
+    background-color: #00ffff;
     border-radius: 12px;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #00e0e0; /* efeito hover */
+    background-color: #00e0e0;
 }
 
 footer {
@@ -65,7 +69,7 @@ footer {
 <body>
 
 <!-- Foto de perfil -->
-<img src="assets/images/minha-foto.png" alt="Meu Avatar" class="profile-pic">
+<img src="https://i.imgur.com/Mz6fLSP.png" alt="Gabriel" class="profile-pic">
 
 <!-- Nome -->
 <h1>@lilica acessórios artesanais</h1>
